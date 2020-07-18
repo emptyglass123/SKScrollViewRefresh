@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "SKScrollViewRefresh"
-  spec.version      = "0.0.1"
+  spec.version      = "1.0.0"
   spec.summary      = "继承于UIScrollView的快速集成上拉/下拉刷新组价."
 
   # This description is used to generate tags and improve search results.
@@ -24,8 +24,7 @@ Pod::Spec.new do |spec|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  spec.description  = <<-DESC
-                   DESC
+  spec.description  = "通过继承于UIScrollView的实例对象直接调用,可以快速集成.事件通过block回调"
 
   spec.homepage     = "http://EXAMPLE/SKScrollViewRefresh"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
