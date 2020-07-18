@@ -26,7 +26,7 @@ Pod::Spec.new do |spec|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = "通过继承于UIScrollView的实例对象直接调用,可以快速集成.事件通过block回调"
 
-  spec.homepage     = "http://EXAMPLE/SKScrollViewRefresh"
+  spec.homepage     = "https://github.com/emptyglass123/SKScrollViewRefresh.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
