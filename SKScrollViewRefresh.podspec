@@ -91,7 +91,7 @@ Pod::Spec.new do |spec|
 
   spec.source_files  = "SKScrollViewRefresh"
   #, "SKScrollViewRefresh/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
 
@@ -132,6 +132,6 @@ Pod::Spec.new do |spec|
     spec.requires_arc = true
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-    spec.dependency "MJRefresh", "~> 1.4"
+    spec.dependency "MJRefresh"
 
 end
