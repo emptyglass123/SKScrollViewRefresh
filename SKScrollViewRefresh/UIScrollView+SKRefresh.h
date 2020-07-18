@@ -16,7 +16,7 @@
 #import <UIKit/UIKit.h>
 
 
-typedef void (^WDOperationBlock)(void);
+typedef void (^WDOperationBlock)(void); 
 
 
 @interface UIScrollView (WDRefreshView)
